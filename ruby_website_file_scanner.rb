@@ -24,7 +24,7 @@ def scan(url, file)
     end
   end
 
-  scan_thread # İş parçacığını döndürün.
+  scan_thread
 end
 
 threads = []
